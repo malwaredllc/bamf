@@ -28,22 +28,8 @@ ____________________________________________________________
 - Use the `backdoors` command to view routers with a confirmed backdoor
 - Use the `devices` command to view all devices connected to vulnerable routers
 
-____________________________________________________________
-
-## To Do
-
-*Contributors welcome!Feel free to issue pull-requests with any new features or improvements you have come up with!*
-
-1) Look into using an online vulnerability database API to enable cross-referencing responses from
-the Shodan IoT search engine with signatures of backdoors/vulnerabilities
-2) Change to modular design to make it easier for other developers to add detection & exploitation features for
- other vulnerabilities
-3) Integrate BAMF into the [BYOB](https://github.com/malwaredllc/byob) framework as a distribution mechanism to maximize spreading potential
-____________________________________________________________
 
 ## Contact
-
-__Website__: https://malwared.com
 
 __Email__: security@malwared.com
 
