@@ -34,7 +34,6 @@ ____________________________________________________________
 - Use the `search` command to search the internet for potential
 - Use the `scan` command to scan the target routers for backdoors
 - Use the `map` command to map the networks of devices connected to vulnerable routers
-- Use the `pharm` command to change the DNS settings of vulnerable routers
 - Use the `targets` command to view potential targets discovered this session
 - Use the `backdoors` command to view routers with a confirmed backdoor
 - Use the `devices` command to view all devices connected to vulnerable routers
