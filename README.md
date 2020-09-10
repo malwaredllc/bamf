@@ -5,19 +5,10 @@
 __DISCLAIMER__: This project should be used for authorized testing and educational purposes only.
 
 BAMF is an open-source tool designed to leverage Shodan (a search engine for the Internet of Things) 
-to discover vulnerable routers, then utilize detected backdoors/vulnerabilities to remotely access 
-the router administration panel and modify the DNS server settings.
-
-Changing the primary DNS server of a router hijacks the domain name resolution process, enabling an
-attacker to target every device on the network simultaneously to spread malware with drive-by downloads
-and harvest credentials via malicious redirects to fraudulent phishing sites.
-
-Currently the only vulnerability detected and exploited is [CVE-2013-6026](https://nvd.nist.gov/vuln/detail/CVE-2013-6026), commonly known as *Joel's Backdoor*,
+to discover routers vulnerable to [CVE-2013-6026](https://nvd.nist.gov/vuln/detail/CVE-2013-6026), commonly known as *Joel's Backdoor*,
 a severe vulnerability allowing unauthenticated access to the administration panel of many routers made by D-Link,
 one of the world's largest manufacturers of routers for home and business. 
 
-This project is still under development and will soon have a more modular design, making it easier
-for other developers to add detection & exploitation features for other vulnerabilities.
 ____________________________________________________________
 
 ## Installation
