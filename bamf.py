@@ -1,10 +1,4 @@
 #!/usr/bin/env python
-'BAMF (Backdoor Access Malvertising Framework)'
-
-__version__ = '0.1.2'
-__license__ = 'GPLv3'
-__author__ = 'Daniel Vega-Myhre'
-__github__ = 'https://github.com/malwaredllc/bamf'
 
 # standard library
 import os
